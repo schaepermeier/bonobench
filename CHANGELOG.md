@@ -13,6 +13,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initialized CHANGELOG.md to track changes
 - Ignore local .vscode settings in .gitignore
 - Added installation instructions to README.md
+- The folder [examples](examples/) now contains usage examples
+- [examples/getting-started.ipynb](examples/getting-started.ipynb) demonstrates the basic problem instance creation workflow
 
 ## Fixed
 
