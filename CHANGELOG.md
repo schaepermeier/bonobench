@@ -14,6 +14,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Ignore local .vscode settings in .gitignore
 - Added installation instructions to README.md
 
+## Fixed
+
+- Dominance plots now correctly compute log(layer + 1) instead of log(layer) to avoid log(0) for nondominated points.
+
 ## [0.0.1] - 2026-01-09
 
 ### Added

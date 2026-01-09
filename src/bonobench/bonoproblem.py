@@ -205,7 +205,7 @@ class BONOProblem:
         dec_space = np.array(np.meshgrid(x1, x2)).T.reshape(-1, 2)
         obj_1, obj_2 = self.bulk_eval(dec_space)
         obj_space = np.array([obj_1, obj_2]).T
-        obj_rank = moocore.pareto_rank(obj_space)
+        obj_rank = moocore.pareto_rank(obj_space) + 1 # + 1 avoids issues with log-scaling
 
         fig, axs = plt.subplots(nrows = 1, ncols = 2, figsize = (9,4), constrained_layout = True)
         ax1, ax2 = axs
