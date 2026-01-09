@@ -17,6 +17,12 @@ classifiers = [
 ]
 license = "MIT"
 license-files = ["LICEN[CS]E*"]
+dependencies = [
+  "numpy>=2.4.0",
+  "sortedcontainers>=2.4.0",
+  "matplotlib>=3.10.8",
+  "moocore>=0.1.10"
+]
 
 [project.urls]
 Homepage = "https://github.com/schaepermeier/bonobench"
