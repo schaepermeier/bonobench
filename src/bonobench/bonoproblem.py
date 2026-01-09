@@ -6,7 +6,7 @@ import numpy as np
 from sortedcontainers import SortedList
 import moocore
 import matplotlib.pyplot as plt
-from .pareto import ParetoFront, ObjectivePoint, utility
+from .pareto import ParetoFront, utility
 from .utils import step_round
 
 class Problem:
