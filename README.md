@@ -14,7 +14,7 @@ A log of all versions and changes is maintained in [CHANGELOG.md](CHANGELOG.md).
 
 ## Testing
 
-To run all unittests contained in the [test](./tests) folder, you can run the following command:
+To run all unittests contained in the [tests](./tests) folder, you can run the following command:
 
 ```sh
 python -m unittest discover -s tests
