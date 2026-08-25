@@ -12,7 +12,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Package dependencies are now listed in pyproject.toml
 - Initialized CHANGELOG.md to track changes
 - Ignore local .vscode settings in .gitignore
-- Added installation instructions to README.md
+- Ignore macOS-specific .DS_Store files in .gitignore
+- Added installation and testing instructions to README.md
+- Added citation and zenodo references to README.md
 - The folder [examples](examples/) now contains usage examples
 - [examples/getting-started.ipynb](examples/getting-started.ipynb) demonstrates the basic problem instance creation workflow
 
