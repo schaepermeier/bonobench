@@ -17,6 +17,12 @@ To install the most recent (unreleased) version of bonobench, you can run:
 pip install git+https://github.com/schaepermeier/bonobench.git
 ```
 
+To install a specific previous version (e.g., v0.0.1, v0.0.2, ...), replace TAGNAME with the version tag in the following command:
+
+```sh
+pip install git+https://github.com/schaepermeier/bonobench.git@TAGNAME
+```
+
 A log of all versions and changes is maintained in [CHANGELOG.md](CHANGELOG.md).
 
 ## Testing
