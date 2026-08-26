@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [examples/getting-started.ipynb](examples/getting-started.ipynb) demonstrates the basic problem instance creation workflow
 - Python version pinned to 3.13 (.python-version)
 - Added uv.lock for better requirements management
+- Tests are automatically run using GitHub workflows
 
 ### Changed
 
