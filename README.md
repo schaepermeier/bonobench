@@ -2,6 +2,13 @@
 
 `bonobench` is a Python package for structured benchmarking of bi-objective numerical optimizers.
 
+<p align="center">
+  <img src="figures/R2-Unimodal-10D.svg" alt="Runtime profile for unimodal problems measured with the exact R2 indicator targets" width="49%">
+  <img src="figures/R2-StructuredMultimodal-10D.svg" alt="Runtime profile for structured multimodal problems measured with the exact R2 indicator targets" width="49%">
+  <img src="figures/R2-RandomMultimodal-10D.svg" alt="Runtime profile for random multimodal problems measured with the exact R2 indicator targets" width="49%">
+  <img src="figures/R2-AxisAligned-10D.svg" alt="Runtime profile for axis-aligned problems measured with the exact R2 indicator targets" width="49%">
+</p>
+
 ## Installation
 
 To install the most recent (unreleased) version of bonobench, you can run:
@@ -22,7 +29,7 @@ python -m unittest discover -s tests
 
 ## BONO-Bench Publication
 
-If you find this package useful, please consider citing our [relevant publication](https://doi.org/10.1145/3795775):
+If you find this package useful, please consider citing our [ACM TELO publication](https://doi.org/10.1145/3795775):
 
 ```bibtex
 @article{10.1145/3795775,

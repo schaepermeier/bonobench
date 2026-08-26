@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Python version pinned to 3.13 (.python-version)
 - Added uv.lock for better requirements management
 - Tests are automatically run using GitHub workflows
+- Add exemplary runtime profiles in README
 
 ### Changed
 
