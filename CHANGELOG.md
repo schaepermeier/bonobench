@@ -17,8 +17,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added citation and zenodo references to README.md
 - The folder [examples](examples/) now contains usage examples
 - [examples/getting-started.ipynb](examples/getting-started.ipynb) demonstrates the basic problem instance creation workflow
+- Python version pinned to 3.13 (.python-version)
+- Added uv.lock for better requirements management
 
-## Fixed
+### Changed
+
+- pyproject.toml requires python>=3.11 in line with numpy>=2.4.0 requirement
+
+### Fixed
 
 - Dominance plots now correctly compute log(layer + 1) instead of log(layer) to avoid log(0) for nondominated points.
 
